@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "OneTech Studio: Prompt Koruması",
+  "version": "2.0.0",
+  "description": "AI sitelerine gönderilen istemleri yerel OneTech Studio ile inceleyip hassas verileri maskeler.",
+  "action": { "default_popup": "popup.html" },
+  "permissions": ["storage"],
+  "host_permissions": ["http://127.0.0.1:8765/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*", "https://gemini.google.com/*", "https://claude.ai/*"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }]
+}

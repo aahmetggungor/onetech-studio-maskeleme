@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.streamlit/
+*.pyc
+prompt_rules.json
+prompt_rules.json.tmp
+.streamlit/secrets.toml
