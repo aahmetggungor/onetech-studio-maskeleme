@@ -4,6 +4,9 @@ Bitirme projesi için maskeleme çalışma alanı. OneTech Chrome eklentisi AI s
 
 ## Çevrimiçi demo
 
+**Canlı demo:** https://onetech-studio-maskeleme.streamlit.app/  
+**Kaynak kod:** https://github.com/aahmetggungor/onetech-studio-maskeleme
+
 Bu depo Streamlit Community Cloud'da `app.py` giriş dosyasıyla yayınlanabilir. Çevrimiçi arayüze yazılan metin ve yüklenen dosyalar sunucuda işlenir; gerçek kişisel/gizli veri yerine yalnızca sentetik örnek kullanın. Özel prompt kuralları çevrimiçi demoda ziyaretçi oturumuna özeldir. Chrome eklentisi çevrimiçi sunucuya bağlanmaz; gizli istemleri korumak için eklentiyi ve API'yi kendi bilgisayarınızda çalıştırın.
 
 ## Çalıştırma
