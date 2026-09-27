@@ -2,6 +2,12 @@
 
 Bitirme projesi için maskeleme çalışma alanı. OneTech Chrome eklentisi AI sitelerine gönderilecek istemleri denetler; Streamlit arayüzü aynı metin kurallarını ve fotoğraf, PDF, kısa video maskelemesini sunar.
 
+**[Canlı demoyu aç](https://onetech-studio-maskeleme.streamlit.app/)** · **[Örneklerle dene](#demo-akışı)** · **[Prompt değerlendirmesi](PROMPT_DEGERLENDIRME.md)**
+
+![Örnek fotoğrafta yüz ve plaka blur maskeleme çıktısı](examples/ornek_yuz_plaka_blur.png)
+
+*Sentetik örnekte yüz ve plaka blur çıktısı. Gizli içerik için aşağıdaki yöntem ve sınırları okuyun.*
+
 ## Çevrimiçi demo
 
 **Canlı demo:** https://onetech-studio-maskeleme.streamlit.app/  
